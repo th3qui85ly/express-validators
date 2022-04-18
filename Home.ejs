@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation using Express-Validator</title>
+</head>
+<body>
+    <p style="margin: 20px; text-align: center; font-size: 24px; font-weight: 700; text-transform: capitalize;">Enter your details</p>
+    <form action="saveForm" method="post" style="text-align: center; margin: 10px 10px; padding: 10px; background-color: antiquewhite;">
+        <pre>
+            First name: <input type="text" name="first_name" ><br>
+            Last name: <input type="text" name="last_name"> <br>
+            Age: <input type="number" name="age"><br>
+            Email: <input type="text" name="email"><br>
+            Pincode: <input type="text" name="pincode" maxlength="6"> <br>
+            Select gender: <select name="gender">
+                <option value="Select Gender" disabled>Gender</option>
+                <option >Male</option>
+                <option >Female</option>
+                <option >Others</option>
+              </select>
+              <br>
+            <input type="submit" value="Submit">
+        </pre> 
+
+    </form>
+</body>
+</html>
